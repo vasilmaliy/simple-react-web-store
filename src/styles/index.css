@@ -1,0 +1,26 @@
+:root {
+  --color-orange: hsl(26, 100%, 55%);
+  --color-pale-orange: hsl(25, 100%, 94%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-dark-blue: hsl(220, 13%, 13%);
+  --color-dark-grayish-blue: hsl(219, 9%, 45%);
+  --color-grayish-blue: hsl(220, 14%, 75%);
+  --color-light-grayish-blue: hsl(223, 64%, 98%);
+  --color-black: hsl(0, 0%, 0%);
+
+  --font-size-main: 16px;
+  --font-family-main: 'Kumbh Sans', sans-serif;
+
+
+  --max-width: 1140px;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-size: var(--font-size-main);
+  font-family: var(--font-family-main);
+  background-color: var(--color-white);
+  
+}
