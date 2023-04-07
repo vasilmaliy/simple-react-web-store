@@ -16,8 +16,8 @@ const Header = () => {
   }
 
   return (
-    <div className={styles.container}>
-      
+    <div className={styles.header_container}>
+      <div className={styles.header}>
       <div className={styles.menu_button_container} onClick={() => toggleMenu()}> 
           <img  className={styles.mobile_menu_button} src={menuToggle ? imgClose : imgMenu}></img> 
       </div>
@@ -79,7 +79,7 @@ const Header = () => {
               <img className={styles.user_icon} src={imgAvatar} alt="card"></img>
             </div>
       </div>
-
+      </div>
     </div>
   )
 }

@@ -1,7 +1,9 @@
+import HomePage from '@containers/HomePage';
+
 const router  = [
   {
     path: '/',
-    element: <h2>home</h2>,
+    element: <HomePage/>,
   },
   {
     path: '/collections',

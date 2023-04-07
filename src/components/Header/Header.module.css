@@ -1,7 +1,19 @@
-.container {
+.header_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+}
+
+.header {
   position: relative;
+  width: var(--max-width);
+  
   display: flex;
   height: 114px;
+  margin: auto;
+  padding: 0px;
   align-items: center;
   padding-bottom: 4px;
   border-bottom: 1px var(--color-grayish-blue) solid;
